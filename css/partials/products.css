@@ -1,0 +1,69 @@
+div.products{
+    width: 100%;
+    padding: 10px;
+    background-color:#2b2b2b;
+    box-sizing: border-box;
+}
+div.products>div.product{
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 30%;
+    margin-left: 20px;
+    user-select: none;
+    text-align: center;
+
+}
+div.products>div.product>h2{
+    color: bisque;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+div.products>div.product>p{
+    color: bisque;
+    font-size: 16px;
+    font-family: "menu";
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+div.products>div.product>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "menu";
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 50ms;
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    color: orangered;
+    background-color: darkblue;
+}
+div.products>div.product>img{
+    width: 80%;
+    height: 280px;
+    border-radius: 10px;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 50ms;
+    border-color: black;
+    border-style: solid;
+    border-collapse: separate;
+    margin-bottom: 10px;
+    object-fit: cover;
+    
+}
+div.products>div.product>a:hover{
+    color: green;
+    background-color:bisque;
+}
+div.products>div.product>img:hover{
+    box-shadow: 5px 5px 5px orangered,-5px -5px 5px orangered;
+}

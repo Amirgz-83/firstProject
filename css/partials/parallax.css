@@ -1,0 +1,45 @@
+div.parallax {
+  width: 100vw;
+  height: 70vh;
+  padding: 50px;
+  box-sizing: border-box;
+  background-position: center center;
+  background-attachment: fixed;
+  user-select: none;
+  background-image: url("../../images/glorious-summer-sunset-gwjc9p87etj1mhmt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.parallax>div.slogan{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 4px;
+    border-radius: 10px;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 50ms;
+}
+div.parallax>div.slogan>h1{
+    text-align: center;
+    font-family: "menu";
+    font-size: 25px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+div.parallax>div.slogan>p{
+    font-family: ""menu;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 20px;
+    
+}
+div.parallax>div.slogan:hover{
+    background-color: rgba(0, 0,0, 0.8);
+    box-shadow: 4px 4px 4px goldenrod, -4px -4px 4px black;
+}
